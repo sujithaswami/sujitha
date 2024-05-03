@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Shortner</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div id="header-div" class="">
+        <h1 class="">URL Shortener</h1>
+      </div>
+      <div id="content-div">
+        <div id="input-div">
+          <input
+            type="text"
+            class="text-field content-row"
+            placeholder="Enter URL here . . ."
+            id="input-field"
+            required
+          />
+          <button id="shorten" type="button" class="content-row button">
+            Shorten URL
+          </button>
+        </div>
+        <div id="output-div">
+          <div class="content-row" id="new-url-label">Your short URL:</div>
+          <div id="new-url" class="content-row"></div>
+          <button type="button" id="redirect-btn" class="content-row button">
+            Redirect
+          </button>
+        </div>
+        <div class="" id="error-div">
+          <p class="content-row" id="error-text"></p>
+        </div>
+      </div>
+    </main>
+    <!--App script-->
+    <script src="script.js"></script>
+  </body>
+</html>
